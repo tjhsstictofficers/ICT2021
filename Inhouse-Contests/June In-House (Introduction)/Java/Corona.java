@@ -19,7 +19,6 @@ public class Corona {
       
       while (!pq.isEmpty()) {
             Parent curr = pq.remove();
-            //System.out.println(curr);
             tripWeight += curr.getWeight();
             if(tripWeight > W){
                count++;
